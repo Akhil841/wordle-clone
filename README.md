@@ -30,7 +30,7 @@ into the command line (requires `git`) or by downloading this repository as a ZI
 2. Compile and execute the program by `cd`-ing into the directory where this repository is located on your computer and entering<br><br>
 ```make exec```<br><br>
 if on Mac or Linux or<br><br>
-```execute.bat```<br><br>
+```execute```<br><br>
 if on Windows. If you're a quirky boi and want to use Windows PowerShell to execute this program, you would enter<br><br>
 ```.\execute.bat```<br><br>
 3. The program should run, and you should be able to play Wordle in the command line!
