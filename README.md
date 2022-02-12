@@ -31,7 +31,7 @@ into the command line (requires `git`) or by downloading this repository as a ZI
 ```make exec```<br><br>
 if on Mac or Linux.<br>
 If you're on Windows, you'll have to use Powershell, for which the command is<br><br>
-```.\exeucte.bat```
+```.\exeucte.bat```<br><br>
 Unfortunately, Windows Command Prompt does not support changing the color of text ¯\\\_(ツ)\_/¯
 3. The program should run, and you should be able to play Wordle in the command line!
 
