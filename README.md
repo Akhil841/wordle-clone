@@ -24,15 +24,15 @@ All dependencies are required unless stated otherwise.<br>
 
 ## Installation
 
-1. Clone this repository by entering
-```git clone https://github.com/Akhil841/wordle-clone```
+1. Clone this repository by entering<br>
+```git clone https://github.com/Akhil841/wordle-clone```<br>
 into the command line (requires `git`) or by downloading this repository as a ZIP file (click on the green `Code` button next to the "About" header) and unzipping it.
-4. Compile and execute the program by `cd`-ing into the directory where this repository is located on your computer and entering
-```make exec```
-if on Mac or Linux or
-```execute.bat```
-if on Windows. If you're a quirky boi and want to use Windows PowerShell to execute this program, you would enter
-```.\execute.bat```.
+4. Compile and execute the program by `cd`-ing into the directory where this repository is located on your computer and entering<br>
+```make exec```<br>
+if on Mac or Linux or<br>
+```execute.bat```<br>
+if on Windows. If you're a quirky boi and want to use Windows PowerShell to execute this program, you would enter<br>
+```.\execute.bat```.<br>
 10. The program should run, and you should be able to play Wordle in the command line!
 
 ## Other notes
