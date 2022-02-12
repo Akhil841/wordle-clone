@@ -27,8 +27,3 @@ jobs:
       - name: Compilation test
         run: |
           make Wordle.jar
-      - name: Check if Windows build is working
-        run: |
-          Wordle
-          continue
-          exigame
