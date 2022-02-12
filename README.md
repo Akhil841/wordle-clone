@@ -1,9 +1,7 @@
 # wordle-clone
-A clone of Wordle written in Java. Mainly written so I can test Makefile.
-
 ## Introduction
 
-The game [Wordle](https://en.wikipedia.org/wiki/Wordle) has recently become popular, so I've tried my hand at making a clone of it.
+The game [Wordle](https://en.wikipedia.org/wiki/Wordle) has recently become popular, so I've tried my hand at making a clone of it. I also wrote it because I think Makefiles are cool.
 
 ## Rules
 
