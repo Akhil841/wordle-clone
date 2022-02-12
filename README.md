@@ -14,11 +14,13 @@ This game plays the same as regular Wordle. You're trying to guess a word, and y
 This Wordle clone works for Windows, Mac and Linux.
 I cannot guarantee (and in fact, I highly doubt) that it will work on mobile devices.
 
-## Required dependencies
+## Dependencies
 
-`git` ([optional](https://git-scm.com/downloads))<br>
-`make` (if using [Mac](https://stackoverflow.com/a/10265766) or [Linux](https://askubuntu.com/a/1363822))<br>
-[An installation of the JRE](https://www.java.com/en/download)
+All dependencies are required unless stated otherwise.<br><br>
+
+* `git` ([optional](https://git-scm.com/downloads))<br>
+* `make` (if using [Mac](https://stackoverflow.com/a/10265766) or [Linux](https://askubuntu.com/a/1363822))<br>
+* [An installation of the JRE](https://www.java.com/en/download)
 
 ## Installation
 
