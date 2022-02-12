@@ -39,8 +39,7 @@ if on Windows. If you're a quirky boi and want to use Windows PowerShell to exec
 
 * It's better to run this program on Mac or Linux because `make` only compiles the `.jar` file if the source files are updated, but Windows will compile the `.jar` file every time `execute.bat` is run and it will thus consume more memory writes and take longer. The difference is barely noticeable, so don't worry too much about it.
    * If you want `make` functionality in the Windows Command Prompt, you can [install Chocolatey](https://stackoverflow.com/a/32127632) and run<br>
-   ```choco install make```
-   <br>
+   ```choco install make```.
 * You can actually change which words are used by the program! Just edit `dictionary.txt` and replace it with all the words you want. Each word should be separated by a newline.
    * Fun fact: The default dictionary is actually a merge of [the University of Michigan's list of all English words](http://www-personal.umich.edu/~jlawler/wordlist) and [the list of all legal Scrabble words](https://github.com/Urmomfarter/WWF-Cheat/blob/master/enable1.txt)!
 * If you don't like how many lives you get, you can open `Wordle.java` and edit the variable `LIFE_MULTIPLIER` (default 1.5) or, if you want, you can edit `MAX_LIVES` to force the number of lives to be a specific number, regardless of the word length you pick.
