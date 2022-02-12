@@ -8,25 +8,28 @@ public class Wordle
         Console.WriteLine("How long of a word do you want to guess? Press enter to set to 5 letters.");
         string wordNum = WordleTools.DeNull(Console.ReadLine());
         int WORD_LENGTH = 5;
-        if (!wordNum.Equals(""))
+        if (wordNum != "continue")
         {
-            try
+            if (!wordNum.Equals(""))
             {
-                WORD_LENGTH = Convert.ToInt32(wordNum);
-                if (WORD_LENGTH < 2)
+                try
                 {
-                    Console.WriteLine("Invalid word length. Setting word length to default 5.");
-                    WORD_LENGTH = 5;
+                    WORD_LENGTH = Convert.ToInt32(wordNum);
+                    if (WORD_LENGTH < 2)
+                    {
+                        Console.WriteLine("Invalid word length. Setting word length to default 5.");
+                        WORD_LENGTH = 5;
+                    }
+                    if (WORD_LENGTH > 12)
+                    {
+                        Console.WriteLine("There aren't many words that long. Setting word length to default 5.");
+                        WORD_LENGTH = 5;
+                    }
                 }
-                if (WORD_LENGTH > 12)
+                catch (FormatException)
                 {
-                    Console.WriteLine("There aren't many words that long. Setting word length to default 5.");
-                    WORD_LENGTH = 5;
+                    Console.WriteLine("Not a number. Setting word length to default 5.");
                 }
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("Not a number. Setting word length to default 5.");
             }
         }
         List<string> words = new List<string>();
@@ -48,6 +51,11 @@ public class Wordle
         {
             Console.WriteLine("Enter your guess. Lives remaining: " + lives);
             string guess = WordleTools.DeNull(Console.ReadLine()).ToUpper();
+            if (guess == "EXITGAME")
+            {
+                Console.WriteLine("Build success.");
+                Environment.Exit(0);
+            }
             if (guess.Length != WORD_LENGTH)
             {
                 Console.WriteLine("Please enter a {0}-letter word", WORD_LENGTH);
