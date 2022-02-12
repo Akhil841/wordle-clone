@@ -31,17 +31,18 @@ into the command line (requires `git`) or by downloading this repository as a ZI
 2. Compile and execute the program by `cd`-ing into the directory where this repository is located on your computer and entering<br><br>
 ```make exec```<br><br>
 if on Mac or Linux.<br>
-If you're on Windows, you'll have to use Powershell, and the command is
-```csc Wordle.cs```
-Unfortunately, Windows Command Prompt does not support changing the color of text ¯\\\_(ツ)\_/¯
+If you're on Windows, you'll have to enter<br><br>
+```Wordle```<br><br>
+and the program should run. Unfortunately Windows and Java console applications don't go well together, so what you're running is actually a C# port of the game. It functions identically, though, so you don't need to worry.
 3. The program should run, and you should be able to play Wordle in the command line!
 
 ## Other notes
 
-* It's better to run this program on Mac or Linux because `make` only compiles the `.jar` file if the source files are updated, but Windows will compile the `.jar` file every time `execute.bat` is run and it will thus consume more memory writes and take longer. The difference is barely noticeable, so don't worry too much about it.
+* If you want to compile the game on Windows, open `.\Wordle\Wordle.sln` in Visual Studio and compile it.
+* It's better to run this program on Mac or Linux because `make` compiles the game if the source is updated, but on Windows, you're running a compiled, release version of the game (that will not update unless you reinstall the repository). The difference is barely noticeable, so don't worry too much about it.
    * If you want `make` functionality in Windows, you can [install Chocolatey](https://stackoverflow.com/a/32127632) and run<br>
    ```choco install make```.
 * You can actually change which words are used by the program! Just edit `dictionary.txt` and replace it with all the words you want. Each word should be separated by a newline.
    * Fun fact: The default dictionary is actually a merge of [the University of Michigan's list of all English words](http://www-personal.umich.edu/~jlawler/wordlist) and [the list of all legal Scrabble words](https://github.com/Urmomfarter/WWF-Cheat/blob/master/enable1.txt)!
-* If you don't like how many lives you get, you can open `Wordle.java` and edit the variable `LIFE_MULTIPLIER` (default 1.5) or, if you want, you can edit `MAX_LIVES` to force the number of lives to be a specific number, regardless of the word length you pick.
+* If you don't like how many lives you get, you can open `Wordle.java` (or `Wordle.cs` on Windows) and edit the variable `LIFE_MULTIPLIER` (default 1.5) or, if you want, you can edit `MAX_LIVES` to force the number of lives to be a specific number, regardless of the word length you pick.
 * If you want the class files or just the `JAR` for whatever reason, the Makefile has recipes for `WordleTools.class`, `Wordle.class`, and `Wordle.jar`. If you're on Windows, just open the Makefile with a text editor and you'll see the commands used to make each of these files.
