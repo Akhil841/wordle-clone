@@ -5,7 +5,9 @@ The game [Wordle](https://en.wikipedia.org/wiki/Wordle) has recently become popu
 
 ## Rules
 
-This game plays the same as regular Wordle. You're trying to guess a word, and you have six chances. Enter your guess, and the system will print out your guess. For each letter in the word, if it is the correct letter in the correct position, it will by highlighted green. If it is a correct letter in an incorrect position, it will be highlighted yellow. If the letter is not in the word, it will not be highlighted.
+This game plays the same as regular Wordle. You're trying to guess a word, and you have a limited chances. Enter your guess, and the system will print out your guess. For each letter in the word, if it is the correct letter in the correct position, it will by highlighted green. If it is a correct letter in an incorrect position, it will be highlighted yellow. If the letter is not in the word, it will not be highlighted.<br><br>
+
+What makes this different from regular Wordle, however, is that you get to pick how long the word is. The number of chances you get is modified accordingly. You can select any word length from 2 to 12.
 
 ## Platforms
 
