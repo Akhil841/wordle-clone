@@ -60,8 +60,9 @@ public class Wordle {
         }
         //store whether the user found the correct word here
         boolean found = false;
+        final double LIFE_MULTIPLIER = 1.5;
         //The number of lives the user starts with
-        final int MAX_LIVES = (int) Math.floor(WORD_LENGTH * 1.2);
+        final int MAX_LIVES = (int) Math.floor(WORD_LENGTH * LIFE_MULTIPLIER);
         //Initialize life counter with the maximum number
         //of lives they can have
         int lives = MAX_LIVES;
