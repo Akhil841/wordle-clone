@@ -20,6 +20,7 @@ All dependencies are required unless stated otherwise.<br>
 
 * `git` ([optional](https://git-scm.com/downloads))<br>
 * `make` (if using [Mac](https://stackoverflow.com/a/10265766) or [Linux](https://askubuntu.com/a/1363822))<br>
+* `csc` (if using [Windows](https://www.geeksforgeeks.org/how-to-execute-c-sharp-program-on-cmd-command-line/)<br>
 * [An installation of the JRE](https://www.java.com/en/download)
 
 ## Installation
@@ -30,8 +31,8 @@ into the command line (requires `git`) or by downloading this repository as a ZI
 2. Compile and execute the program by `cd`-ing into the directory where this repository is located on your computer and entering<br><br>
 ```make exec```<br><br>
 if on Mac or Linux.<br>
-If you're on Windows, you'll have to use Powershell, for which the command is<br><br>
-```.\exeucte.bat```<br><br>
+If you're on Windows, you'll have to use Powershell, and the command is
+```csc Wordle.cs```
 Unfortunately, Windows Command Prompt does not support changing the color of text ¯\\\_(ツ)\_/¯
 3. The program should run, and you should be able to play Wordle in the command line!
 
