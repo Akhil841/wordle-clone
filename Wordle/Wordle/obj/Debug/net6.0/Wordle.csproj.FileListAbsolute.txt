@@ -1,4 +1,3 @@
-C:\Users\akhil\wordle-clone\Wordle\Wordle\obj\Debug\net6.0\Wordle.csproj.AssemblyReference.cache
 C:\Users\akhil\wordle-clone\Wordle\Wordle\obj\Debug\net6.0\Wordle.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\akhil\wordle-clone\Wordle\Wordle\obj\Debug\net6.0\Wordle.AssemblyInfoInputs.cache
 C:\Users\akhil\wordle-clone\Wordle\Wordle\obj\Debug\net6.0\Wordle.AssemblyInfo.cs
@@ -21,3 +20,4 @@ C:\Users\akhil\wordle-clone\obj\Debug\net6.0\Wordle.csproj.CoreCompileInputs.cac
 C:\Users\akhil\wordle-clone\obj\Debug\net6.0\Wordle.dll
 C:\Users\akhil\wordle-clone\obj\Debug\net6.0\ref\Wordle.dll
 C:\Users\akhil\wordle-clone\obj\Debug\net6.0\Wordle.pdb
+C:\Users\akhil\wordle-clone\Wordle\Wordle\obj\Debug\net6.0\Wordle.csproj.AssemblyReference.cache

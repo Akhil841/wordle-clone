@@ -32,7 +32,7 @@ public class Wordle
         List<string> words = new List<string>();
         try
         {
-            words = WordleTools.AllToUpperCase(WordleTools.GetNLetterWords(WordleTools.ReadFile("..\\..\\..\\..\\..\\dictionary.txt"), WORD_LENGTH));
+            words = WordleTools.AllToUpperCase(WordleTools.GetNLetterWords(WordleTools.ReadFile("dictionary.txt"), WORD_LENGTH));
         }
         catch (DirectoryNotFoundException)
         {
