@@ -20,7 +20,7 @@ All dependencies are required unless stated otherwise.<br>
 
 * `git` ([optional](https://git-scm.com/downloads))<br>
 * `make` (if using [Mac](https://stackoverflow.com/a/10265766) or [Linux](https://askubuntu.com/a/1363822))<br>
-* `csc` (if using [Windows](https://www.geeksforgeeks.org/how-to-execute-c-sharp-program-on-cmd-command-line/)<br>
+* `csc` (if using [Windows](https://www.geeksforgeeks.org/how-to-execute-c-sharp-program-on-cmd-command-line/))<br>
 * [An installation of the JRE](https://www.java.com/en/download)
 
 ## Installation
