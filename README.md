@@ -16,7 +16,7 @@ I cannot guarantee (and in fact, I highly doubt) that it will work on mobile dev
 
 ## Dependencies
 
-All dependencies are required unless stated otherwise.<br><br>
+All dependencies are required unless stated otherwise.<br>
 
 * `git` ([optional](https://git-scm.com/downloads))<br>
 * `make` (if using [Mac](https://stackoverflow.com/a/10265766) or [Linux](https://askubuntu.com/a/1363822))<br>
