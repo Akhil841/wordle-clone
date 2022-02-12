@@ -11548,7 +11548,7 @@ cheaply
 cheapness
 cheapskate
 cheat
-cheating(a)
+cheating
 check
 checkbook
 checked
@@ -11726,7 +11726,7 @@ chid
 chide
 chiding
 chief
-chief(a)
+chief
 chiefdom
 chiefly
 chieftain
@@ -23051,7 +23051,7 @@ ezochin/
 ezokin/gr
 fte
 fted
-faon
+fa on
 fa
 faber
 fabian
