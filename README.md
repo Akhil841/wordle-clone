@@ -21,7 +21,7 @@ All dependencies are required unless stated otherwise.<br>
 * `git` ([optional](https://git-scm.com/downloads))<br>
 * `make` (if using [Mac](https://stackoverflow.com/a/10265766) or [Linux](https://askubuntu.com/a/1363822))<br>
 * [The .NET Framework, if using Windows](https://dotnet.microsoft.com/en-us/download/dotnet-framework)<br>
-* [An installation of the JRE](https://www.java.com/en/download)
+* [An installation of the JRE, if using Mac or Linux](https://www.java.com/en/download)
 
 ## Installation
 
